@@ -1,0 +1,8 @@
+public class Urun
+    {
+        public int Id { get; set; }
+        public string İsim { get; set; }
+        public string Kategori { get; set; }
+        public string Barkod { get; set; }
+        public double Fiyat { get; set; }
+    }
