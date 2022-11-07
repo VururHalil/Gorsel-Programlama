@@ -1,0 +1,9 @@
+ Urun urun = new Urun();
+            urun.Id = market.maxürünId;
+            market.maxürünId += 1;
+            urun.İsim = textBox1.Text;
+            urun.Kategori = comboBox1.SelectedItem.ToString();
+            urun.Barkod = "Market" +"-" +urun.Kategori +"-" +RandomString(5);
+            urun.Fiyat= Convert.ToDouble(textBox2.Text);
+
+            market.urunler.Add(urun);
